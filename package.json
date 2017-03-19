@@ -1,0 +1,23 @@
+{
+  "name": "jsapi",
+  "version": "1.0.0",
+  "description": "javascript api demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "api",
+    "demo"
+  ],
+  "author": "huluo",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.2.0",
+    "react": "^15.4.2"
+  },
+  "dependencies": {
+    "mustache": "^2.3.0"
+  }
+}
