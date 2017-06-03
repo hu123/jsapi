@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script type="text/javascript">
+
+    var uri = "http://www.baidu.com aaa bbb ccc";
+    //使用js内置的encodeURI方法来编码uri 空格将被替换成%20
+    var encodedUri = encodeURI(uri);
+    alert(encodedUri);
+
+    //使用js内置的decodeURI函数解码uri--->%20将会被替换成空格
+    alert(decodeURI(encodedUri));
+</script>
+</body>
+</html>
